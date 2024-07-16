@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ORGAN DONATION</title>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="img.css">
+    <style>
+    .ajax {
+      background-color: rgb(114, 76, 175); /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      margin-left: 48%;
+      position: absolute;
+     display: inline-block;
+      font-size: 25px;
+      border-radius: 50%;
+    }
+    .aj {
+      text-align: center;
+      font-size: 3em;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: rgb(233, 31, 31);
+      text-shadow: 0 1px 2px rgba(black,.15);
+    }
+  </style>
+    <script>
+      function loadDoc() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("demo").innerHTML =
+            this.responseText;
+          }
+        };
+        xhttp.open("GET", "details.html", true);
+        xhttp.send();
+      }
+      </script>
+    
+</head>
+
+
+<body>
+    <div class="logo">
+        <p id="logo"> <img src="LOGO.jpeg" alt="logo">AKROSH COMPANY
+            <p style=" text-align:center "> the organisation of ARA Foundation for Charity</p>
+        </p>
+    </div>
+    <div class="nav">
+        <nav class="nav-collapse" role="navigation">
+            <ul class="tabs primary-nav">
+                <li class="tabs__item">
+                    <a href="home.html" target="_self" class="tabs__link">HOME</a>
+                </li>
+                <li class="tabs__item">
+                    <a href="login.php" target="_self" class="tabs__link">LOGIN</a>
+                </li>
+                <li class="tabs__item">
+                    <a href="news.html" target="_self" class="tabs__link">NEWS</a>
+                </li>
+                <li class="tabs__item">
+                    <a href="storyho.html" target="_self" class="tabs__link">STORIES</a>
+                </li>
+                <li class="tabs__item">
+                    <a href="about.html" class="tabs__link">ABOUT US</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+    <div>
+
+        <img src="wal.jpg" class="pic" style="width:100%;height:600px">
+
+    </div>
+
+
+    <div class="info">
+        <h1>What is organ donation and transplantation?</h1>
+        <h2>Organ donation is the process of surgically removing an organ or tissue from one person (the organ donor) and placing it into another person (the recipient). Transplantation is necessary because the recipient’s organ has failed or has been damaged by disease or injury.<br><br>
+        
+        Organ transplantation is one of the great advances in modern medicine. Unfortunately, the need for organ donors is much greater than the number of people who actually donate. 
+        </h2>
+    </div> 
+
+    
+
+   
+
+    <div id="slider">
+      <figure>
+      <img src="eye.jpg" alt>
+      <img src="image12.jpeg" alt>
+      <img src="heart.webp" alt>
+      <img src="img1.jpg" alt>
+     
+      </figure>
+      </div>
+
+    
+
+    <div class="info">
+        <h1>What organs and tissues can be transplanted?</h1>
+        <h2>Organs and tissues that can be transplanted include:<br>
+<img src="image3.jpeg" width="70%"height="50%" style="float: right">
+.Liver<br>
+.Kidney<br>
+.Pancreas<br>
+.Heart<br>
+.Lung<br>
+.Intestine<br>
+.Cornea<br>
+.Middle ear<br>
+.Skin<br>
+.Bone<br>
+.Bone marrow<br>
+.Heart valves<br>
+.Connective tissue<br>
+Vascularized composite allografts (transplant of several structures that may include skin, bone, muscles, blood vessels, nerves, and connective tissue)
+         </h2>
+    </div>
+
+     <div class="info">
+        <h1>Who can be an organ donor?</h1>
+        <h2>People of all ages should consider themselves potential donors. When a person dies, he or she is evaluated for donor suitability based on their medical history and age. The Organ Procurement Agency determines medical suitability for donation.
+        </h2>
+    </div>    
+    <div id="demo">
+      <h1 class="aj">AKROSH COMPANY</h1>
+
+       <h2 class="aj"> the organisation of ARA Foundation for Charity</h2>
+      <button type="button" onclick="loadDoc()" class="ajax">MOTTO</button>
+      </div>
+<br><br><br><hr>
+    <figure class="snip1477">
+        <img src="donar.png" alt="sample38" />
+        <div class="title">
+          <div>
+            <h2>FACT</h2>
+            <h4>2003=2017</h4>
+          </div>
+        </div>
+        <figcaption>
+          <p>While in 2013, there were only 313 donors across India, 2014 saw 411 donors and 2017 
+              had 905 cadaver organ donors leading to 2870 organ donation</p>
+        </figcaption>
+        
+      </figure>
+      <figure class="snip1477"><img src="india.png" alt="sample91" />
+        <div class="title">
+          <div>
+            <h2>INDIA</h2>
+            <h4>STATS</h4>
+          </div>
+        </div>
+        <figcaption>
+          <p>The deceased donor donation rate in India stands at around 0.34 per million, which is abysmally low 
+            when compared to the organ donation rate prevalent in other developed countries</p>
+        </figcaption>
+      
+      </figure>
+      <figure class="snip1477"><img src="organ.png" alt="sample35" />
+        <div class="title">
+          <div>
+            <h2>RULE</h2>
+            <h4>THOA</h4>
+          </div>
+        </div>
+        <figcaption>
+          <p>
+              Organ donations are legal by Indian law. The Indian government enacted the Transplantation of Human Organs Act (THOA), 1994, 
+              which allows organ donation</p>
+        </figcaption>
+        
+      </figure>
+
+
+
+
+
+</body>
+
+
+
+
+</html>

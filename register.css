@@ -1,0 +1,76 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.regis {
+    margin-left: 20%;
+    width: 50%;
+    height: 50%;
+    background-color: #CAE7DF;
+  
+}
+.for1{
+
+    margin-left: 25%;
+}
+
+
+table {
+    width: 100%;
+    margin-top: 50px;
+}
+
+input {
+    margin-bottom: 3px;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #CCC
+}
+
+.button {
+    width: 20%
+}
+
+th {
+    font-size: 20px
+}
+
+.topnav {
+    background-color:rgb(95, 192, 248) ;
+    overflow: hidden;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    margin-left: 110px;
+    float: left;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #ffffff;
+    color: rgb(73, 29, 233);
+}
+
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: rgb(243, 241, 247);
+    color: black;
+}

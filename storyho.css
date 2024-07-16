@@ -1,0 +1,35 @@
+
+h1 {
+  text-align: center;
+    color: #e00404;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 300; 
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: rgba(33, 33, 33, 0.2) 0px 1px 0px, rgba(0, 0, 0, 0.93) 0px 1px 1px;
+  }
+  h2 {
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    box-shadow: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 46, 46);
+    font-size: 25px;
+    line-height: 36px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0px;
+
+   
+  }
+.msg {
+    background-color: khaki;
+    width: 960px;
+    height: 500px;
+    
+}
+
+

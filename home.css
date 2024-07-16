@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(207, 237, 248);
+}
+
+
+html {
+    font: 0.75em/1.5 sans-serif;
+    background: #FFF;
+    margin-top: 8px;
+}
+
+.tabs {
+    
+    list-style: none;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.tabs__item {
+    width: 100%;
+    float: left;
+}
+
+@media screen and (min-width: 40em) {
+    .tabs__item {
+        display: table-cell;
+        float: none;
+        width: auto;
+    }
+}
+
+.tabs__link {
+    display: block;
+}
+
+.primary-nav {
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 0;
+    overflow: hidden;
+    /* [1] */
+}
+
+.primary-nav a {
+    padding: .75em 1em;
+    color: white;
+    background: rgb(95, 174, 248);
+    color: #fff;
+    text-decoration: none;
+    border-right: 1px solid #FFF;
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.75em;
+}
+
+.primary-nav a:hover {
+    color: #F85F5F;
+    background: #FFF;
+}
+
+p img {
+    width: 150px;
+    height: 150px;
+    margin-left: 140px;
+    float: left;
+}
+
+#logo {
+    font-size: 50px;
+    text-align: center;
+    color: #F85F5F;
+    
+}
+
+.pic {
+    width: 100px;
+    height: 500px
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 20%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.info{
+    margin: 10%;
+    padding: 5%;
+    background-color: #CAE7DF;
+}
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    
+    
+    div#slider { overflow: hidden; }
+    div#slider figure img { width: 20%; float: left;height: 600px; }
+    div#slider figure { 
+      position: relative;
+      width: 500%;
+      
+     
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 10s slidy infinite; 
+    }
+    
+    
